@@ -40,15 +40,19 @@
 #center_upper #right .text , #center_upper #middle .text , #center_upper #left .text {
     display: block;
     width: 228px;
-    height: 90px;
+    height: 120px;
     overflow: hidden;
     padding: 10px;
     position: absolute;
     left: 38px;
     bottom: 6px;
     color: #fff;
-    background: url(img/hp_tab_text_bg.png) no-repeat 0 0;
+    background: #807D74;
     z-index: 10;
+    border-bottom-right-radius: 20px;
+    margin-right: 1px;
+
+   
 }
 #center_upper div.text h3 {
     font-size: 14px;
