@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----------------------------------------------------------------------------------*/
+/* General  */
+h1 {
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 12px; padding-bottom: 4px;
+} 
+h2 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #005ca0;
+}
+
+.debug {
+    border: solid;
+}
+/*--------------------------------------------------------------------------------------*/
+/* body */
+body {
+    direction: rtl;
+    text-align: right;
+    font-family: 'Arial (Hebrew)', Arial;
+    padding-bottom: 38px;
+    background: #fff;
+}
+/*--------------------------------------------------------------------------------------*/
+/* main menu */
+#main_menu_head {
+    height: 105px;
+    background-color: #909090;
+    width: 100%;
+}
+
+#main_menu_head  #search_and_logo {
+    width: 900px;
+    height: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+#main_menu_head  #search_and_logo #searchBox {
+    /* position: absolute; */
+    float:left;
+    /* top: 20px; */
+    /* left: 10px; */
+    width: 152px;
+    margin-top: 10px;
+}
+
+#main_menu_head  #search_and_logo #searchBox .input {
+    display: block;
+    float: left;
+    width: 132px;
+    height: 19px;
+    background: url(img/search_input.png) no-repeat 0 0;
+}
+
+#main_menu_head  #search_and_logo #searchBox .input input[type="text"] {
+    position: relative;
+    top: 2px;
+    right: 4px;
+    width: 126px;
+    background: transparent;
+    border: 0 none;
+}
+
+#main_menu_head  #search_and_logo #searchBox a {
+    display: block;
+    /* display: inline-block; */
+    float: left;
+    width: 19px;
+    height: 19px;
+    background: url(img/search_button.png) no-repeat 0 0;
+}
+
+#main_menu_head  #search_and_logo #searchBox a:hover {
+    text-decoration: none;
+}
+
+#main_menu_head  #search_and_logo #lang a {
+    display: block;
+    float: left;
+    margin-top: 10px;
+    padding-left: 10px;
+    outline: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#main_menu_head  #search_and_logo #lang a:hover {
+    color: #005CA0; 
+}
+
+
+/* mainMenu */
+#main_menu_head  #mainMenu {
+    width: 900px;
+    height: 50%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 13px;
+    bolder: solid;
+}
+
+#main_menu_head #mainMenu li {
+    height: 100%;
+    float: right;
+    position: relative;
+    list-style: none;
+    display: block;
+}
+#main_menu_head #mainMenu li a.logo {
+    /* float: right; */
+    display: block;
+    width: 142px;
+    height: 93px;
+    position: absolute;
+    bottom: -80px;
+    right: -150px;
+    background: url(img/paz_logo.png) no-repeat 0 0; 
+}
+
+#main_menu_head #mainMenu li a.home {
+
+
+    width: 17px;
+    background: url(img/menu_home.png) no-repeat 0 top; 
+    /* display: block; */
+    /* position: relative; */
+    /* background: url(img/menu_home.png) 0 0; */
+    /* color: #005ca0; */
+}
+
+#main_menu_head #mainMenu li a.home:hover {
+    background-position: -17px top;
+}
+
+
+
+
+#main_menu_head #mainMenu li.sep {
+    width: 4px;
+    height: 21px;
+    background: "img/menu_sep.png" no-repeat 0 0px; margin: 0 16px;
+}
+
+
+
+#main_menu_head #mainMenu li a {
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    height: 100%;
+}
+
+
+#main_menu_head #mainMenu li ul {
+    position:absolute;
+    z-index: 200;
+    top: 33px;
+    right: 0;
+    display: none;
+    background: #909090;
+    list-style: none;
+}
+
+#main_menu_head #mainMenu li ul li {
+    float: none;
+    padding: 0 5px;
+}
+
+#main_menu_head #mainMenu li ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 5px 0;
+    white-space: nowrap;
+}
+
+
+#main_menu_head #mainMenu li:hover ul {
+    display: block;
+    list-style: none;
+}
+
+
+#main_menu_head #mainMenu li ul li.sep {
+    width: 100%;
+    *display: inline;
+    zoom: 1;
+    padding: 0;
+    margin: 0;
+    height: 1px;
+    background: url(img/menu_dropdown_sep.png) repeat-x 0 0;
+}
+
+

@@ -1,0 +1,78 @@
+#center_upper {
+    
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 25px;
+    display: block;
+    
+}
+
+
+#center_upper img {
+    border-bottom-right-radius: 20px;
+    display: block;
+}
+
+
+#center_upper > #right {
+    width: 33%;
+    float: right;
+    position: relative;
+    /* height: 355px; */
+        
+}
+
+
+#center_upper > #middle {
+    width: 33%;
+    float: right;
+    position: relative;
+    height: 355px;
+}
+
+#center_upper > #left {
+    width: 33%;
+    float: right;
+    position: relative;
+    height: 355px;
+}
+
+#center_upper #right .text , #center_upper #middle .text , #center_upper #left .text {
+    display: block;
+    width: 228px;
+    height: 90px;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    left: 38px;
+    bottom: 6px;
+    color: #fff;
+    background: url(img/hp_tab_text_bg.png) no-repeat 0 0;
+    z-index: 10;
+}
+#center_upper div.text h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+#center_upper div.text p {
+    font-size: 13px;
+    margin-top: 4px;
+    color: white;
+}
+#center_upper div.text a.readMore {
+    float: left;
+    color: #fff;
+    position: relative;
+    bottom: 4px;
+    background: url(img/read_more_white.png) no-repeat left center;
+}
+
+#center_upper div.text a.readMore span {
+    padding-left: 12px;
+}
+
+
+#center_upper div.text a.readMore:hover {
+    color: #005ca0;
+}
