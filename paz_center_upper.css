@@ -4,6 +4,7 @@
     margin: 0 auto;
     margin-top: 25px;
     display: block;
+    height: 280px;
     
 }
 
@@ -11,31 +12,20 @@
 #center_upper img {
     border-bottom-right-radius: 20px;
     display: block;
+    height: 300px;
+    width: 97%;
 }
 
 
-#center_upper > #right {
+#center_upper > #right,#center_upper > #middle,#center_upper > #left {
     width: 33%;
     float: right;
     position: relative;
-    /* height: 355px; */
+    height: 300px;
         
 }
 
 
-#center_upper > #middle {
-    width: 33%;
-    float: right;
-    position: relative;
-    height: 355px;
-}
-
-#center_upper > #left {
-    width: 33%;
-    float: right;
-    position: relative;
-    height: 355px;
-}
 
 #center_upper #right .text , #center_upper #middle .text , #center_upper #left .text {
     display: block;
@@ -44,7 +34,7 @@
     overflow: hidden;
     padding: 10px;
     position: absolute;
-    left: 38px;
+    left: 55px;
     bottom: 6px;
     color: #fff;
     background: #807D74;

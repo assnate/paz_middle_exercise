@@ -1,11 +1,9 @@
 #center_lower {
    width: 900px;
    margin: 0 auto;
-   /* margin-top: 30px; */
-   /* margin-bottom: 30px; */
    
    padding: 3px;
-   height: 230px;
+   height: 280px;
    margin-bottom: 30px;
    display: block;
    
@@ -26,13 +24,13 @@
 #center_lower_right_wrapper,#center_lower_middle_wrapper,#center_lower_left_wrapper {
     width: 33%;
     float:right;
-    margin-top: 50px;
+    margin-top: 30px;
     
 }
 
 #center_lower #right, #center_lower #middle, #center_lower #left  {
     width: 98%;
-    height: 216px;
+    height: 220px;
     /* float: right; */
     border: solid;
     border-width: thin;
@@ -50,10 +48,6 @@
 #center_lower #left img {
     float: left;
 }
-
-
-
-
 
 #center_lower #right .text, #center_lower #middle .text {
     float: right;
